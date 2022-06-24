@@ -8,10 +8,10 @@ pip install timecop-tracker
 
 ## Usage
 
-Whenever you work on something, you may run the the dead-man to keep idle and collect the time data
+Whenever you work on something, you may run the dead-man to keep idle and collect the time data
 
 ```sh
-dead-man --db-dir /home/drevil/timecop-data/ --project world-domination --task "Supervolcano base"
+dead-man --db-dir /home/drevil/timecop-data/ --project world-domination --activity "Supervolcano base"
 ```
 
 when you are done you can simply stop it with CTR-C key combination. You may generate time sheet reports
