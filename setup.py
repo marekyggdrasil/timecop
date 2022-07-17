@@ -26,6 +26,7 @@ setuptools.setup(
         'console_scripts': [
             'timecop=timecoptracker.timecop:main',
             'dead-man=timecoptracker.deadman:main',
+            'time-target=timecoptracker.target:main',
         ],
     },
 )
